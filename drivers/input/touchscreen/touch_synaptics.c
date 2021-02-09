@@ -1104,7 +1104,7 @@ int synaptics_ts_fw_upgrade_check(struct lge_touch_data *ts)
 		}
 	}
 
-	return 0;
+	return -1;
 }
 
 struct touch_device_driver synaptics_ts_driver = {
